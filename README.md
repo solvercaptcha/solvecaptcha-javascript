@@ -1,12 +1,11 @@
-![solvecaptcha-javascript](https://github.com/user-attachments/assets/60b0a294-4e51-4ff5-a101-82a1aebe33ab)
-<a href="https://github.com/solvecaptcha/solvecaptcha-python"><img src="https://github.com/user-attachments/assets/37e1d860-033b-4cf3-a158-468fc6b4debc" width="82" height="30"></a>
-<a href="https://github.com/solvecaptcha/solvecaptcha-javascript"><img src="https://github.com/user-attachments/assets/371b271e-33c3-4217-af21-b95517a4677c" width="36" height="30"></a>
-<a href="https://github.com/solvecaptcha/solvecaptcha-go"><img src="https://github.com/user-attachments/assets/ab22182e-6cb2-41fa-91f4-d5e89c6d7c6f" width="63" height="30"></a>
-<a href="https://github.com/solvecaptcha/solvecaptcha-ruby"><img src="https://github.com/user-attachments/assets/0270d56f-79b0-4c95-9b09-4de89579914b" width="75" height="30"></a>
-<a href="https://github.com/solvecaptcha/solvecaptcha-cpp"><img src="https://github.com/user-attachments/assets/36de8512-acfd-44fb-bb1f-b7c793a3f926" width="45" height="30"></a>
-<a href="https://github.com/solvecaptcha/solvecaptcha-php"><img src="https://github.com/user-attachments/assets/e8797843-3f61-4fa9-a155-ab0b21fb3858" width="52" height="30"></a>
-<a href="https://github.com/solvecaptcha/solvecaptcha-java"><img src="https://github.com/user-attachments/assets/a3d923f6-4fec-4c07-ac50-e20da6370911" width="50" height="30"></a>
-<a href="https://github.com/solvecaptcha/solvecaptcha-csharp"><img src="https://github.com/user-attachments/assets/f4d449de-780b-49ed-bb0a-b70c82ec4b32" width="38" height="30"></a>
+![solvecaptcha-javascript](https://github.com/user-attachments/assets/60b0a294-4e51-4ff5-a101-82a1aebe33ab)<a href="https://github.com/solvercaptcha/solvecaptcha-python"><img src="https://github.com/user-attachments/assets/37e1d860-033b-4cf3-a158-468fc6b4debc" width="82" height="30"></a>
+<a href="https://github.com/solvercaptcha/solvecaptcha-javascript"><img src="https://github.com/user-attachments/assets/371b271e-33c3-4217-af21-b95517a4677c" width="36" height="30"></a>
+<a href="https://github.com/solvercaptcha/solvecaptcha-go"><img src="https://github.com/user-attachments/assets/ab22182e-6cb2-41fa-91f4-d5e89c6d7c6f" width="63" height="30"></a>
+<a href="https://github.com/solvercaptcha/solvecaptcha-ruby"><img src="https://github.com/user-attachments/assets/0270d56f-79b0-4c95-9b09-4de89579914b" width="75" height="30"></a>
+<a href="https://github.com/solvercaptcha/solvecaptcha-cpp"><img src="https://github.com/user-attachments/assets/36de8512-acfd-44fb-bb1f-b7c793a3f926" width="45" height="30"></a>
+<a href="https://github.com/solvercaptcha/solvecaptcha-php"><img src="https://github.com/user-attachments/assets/e8797843-3f61-4fa9-a155-ab0b21fb3858" width="52" height="30"></a>
+<a href="https://github.com/solvercaptcha/solvecaptcha-java"><img src="https://github.com/user-attachments/assets/a3d923f6-4fec-4c07-ac50-e20da6370911" width="50" height="30"></a>
+<a href="https://github.com/solvercaptcha/solvecaptcha-csharp"><img src="https://github.com/user-attachments/assets/f4d449de-780b-49ed-bb0a-b70c82ec4b32" width="38" height="30"></a>
 
 # JavaScript library for interacting with the Solvecaptcha API (captcha solving service)
 
@@ -284,7 +283,7 @@ solver.lemin({
 
 Use this method to solve Cloudflare Turnstile captcha. Returns a JSON response containing the token.
 
-Turnstile captcha comes in two variants, one of which is the Cloudflare Turnstile Challenge page. For handling this type, we offer a [demo](https://github.com/solvecaptcha/cloudflare-demo). Check out this [demo](https://github.com/solvecaptcha/cloudflare-demo) if you need to solve captchas on the Cloudflare Turnstile Challenge page.
+Turnstile captcha comes in two variants, one of which is the Cloudflare Turnstile Challenge page. For handling this type, we offer a [demo](https://github.com/solvercaptcha/cloudflare-demo). Check out this [demo](https://github.com/solvercaptcha/cloudflare-demo) if you need to solve captchas on the Cloudflare Turnstile Challenge page.
 
 ```js
 solver.cloudflareTurnstile({
