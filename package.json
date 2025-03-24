@@ -1,0 +1,71 @@
+{
+  "name": "solvecaptcha-javascript",
+  "version": "1.0.0",
+  "description": "Node.js wrapper for SolveCaptcha.com API. Bypass recaptcha, hcaptcha, cloudflare capthca and more.",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solvecaptcha/solvecaptcha-javascript.git"
+  },
+  "license": "MIT",
+  "author": "Solvecaptcha",
+  "bugs": {
+    "url": "https://github.com/solvecaptcha/solvecaptcha-javascript/issues"
+  },
+  "homepage": "https://github.com/solvecaptcha/solvecaptcha-javascript",
+  "types": "dist/index.d.ts",
+  "keywords": [
+    "solvecaptcha",
+    "hcaptcha",
+    "reCAPTCHA",
+    "FunCaptcha",
+    "Cloudflare Turnstile",
+    "captcha",
+    "api",
+    "captchasolver",
+    "capmonster",
+    "Geetest",
+    "image captcha",
+    "Coordinates",
+    "Click Captcha",
+    "Geetest V4",
+    "Yandex Smart Captcha",
+    "Lemin captcha",
+    "bypass captcha",
+    "solve captcha",
+    "Amazon WAF",
+    "Capy Puzzle",
+    "行为验证4.0",
+    "行为验证",
+    "DataDome CAPTCHA",
+    "CyberSiARA",
+    "MTCaptcha",
+    "Bounding Box Method",
+    "Friendly Captcha",
+    "Text Captcha",
+    "Canvas",
+    "Rotate",
+    "KeyCaptcha",
+    "Cutcaptcha",
+    "Tencent",
+    "atbCAPTCHA",
+    "Audio Recognition"
+  ],
+  "scripts": {
+    "build": "tsc && node ./dist/index.js",
+    "jsdoc": "jsdoc",
+    "docgen": "tsc && yarn jsdoc ./dist -R \"./readme.md\" -P \"./package.json\" -t \"./node_modules/jaguarjs-jsdoc\" -d \"./docs\" -r",
+    "example": "tsc && node ./tests/mtCaptcha.js"
+  },
+  "dependencies": {
+    "undici": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.7",
+    "@types/node-fetch": "^2.5.7",
+    "dotenv": "^16.0.3",
+    "jaguarjs-jsdoc": "^1.0.2",
+    "jsdoc": "^4.0.2",
+    "typescript": "^4.9.4"
+  }
+}
