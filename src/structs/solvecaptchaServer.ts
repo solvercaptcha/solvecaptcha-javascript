@@ -78,7 +78,7 @@ export class Server extends EventEmitter {
 
     private get defaultPayload() {
         return {
-            key: this._apikey, json: 1, header_acao: this._headerACAO, soft_id: 1000002
+            key: this._apikey, json: 1, header_acao: this._headerACAO, soft_id: 4845
         }
     }
 
