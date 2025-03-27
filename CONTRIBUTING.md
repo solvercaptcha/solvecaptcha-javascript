@@ -1,6 +1,6 @@
-# Contributing to Cloudflare Bypass Demo
+# Contributing to solvecaptcha-javascript
 
-Thank you for considering contributing to the Cloudflare Bypass Demo! By contributing, you're helping improve the project and enabling others to benefit from your improvements.
+Thank you for considering contributing to the solvecaptcha-javascript! By contributing, you're helping improve the project and enabling others to benefit from your improvements.
 
 Here are a few guidelines to help you get started.
 
