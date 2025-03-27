@@ -9,8 +9,7 @@
 
 # JavaScript captcha solver (Node.js): Bypass reCAPTCHA, Cloudflare, hCaptcha, GeeTest and more
 
-The simplest method to swiftly connect the [Solvecaptcha] captcha-solving platform to your codebase and automate the resolution of various captcha types.
-You can find code samples for different captcha types on the [JavaScript captcha solver] page.
+Use the [JavaScript captcha solver](https://solvecaptcha.com/captcha-solver/javascript-captcha-solver-bypass) to automatically bypass any captcha - including reCAPTCHA v2, Invisible, v3, Enterprise, hCaptcha, Cloudflare Turnstile, GeeTest sliders, Amazon WAF, FunCaptcha, and both image and text-based challenges.
 
 - [JavaScript captcha solver (Node.js): Bypass reCAPTCHA, Cloudflare, hCaptcha, GeeTest and more](#javascript-captcha-solver-nodejs-bypass-recaptcha-cloudflare-hcaptcha-geetest-and-more)
   - [Installation](#installation)
