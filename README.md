@@ -25,14 +25,25 @@ To get started quickly, check out the [Captcha Solver API](https://solvecaptcha.
 - [FunCaptcha (Arkose Labs)]()
 - [Other custom captcha types]()
 
-## Features
+## 🛠️ Features
 - Fast and fully automated bypass
-- Works in JavaScript and Node.js environments
-- Compatible with Puppeteer, Playwright, and Selenium
-- Lightweight npm module with modern async/await support
+- Works in **JavaScript** and **Node.js** environments
+- Compatible with **Puppeteer**, **Playwright**, and **Selenium**
+- Lightweight npm module with modern **async/await** support
 - Pay only for successful solves
 - 99.9% uptime
-- 24/7 support for developers and integration teams<br>
+- 24/7 support for developers and integration teams
+
+## 📦 Use cases
+
+- Web scraping behind reCAPTCHA or Cloudflare walls
+- Automated form submission and login flows
+- QA pipelines and headless browser testing
+- Bypassing captchas in research or bot-detection evaluation
+- Custom browser automations using JavaScript or Node.js
+
+Need help integrating with your Node.js app or JS automation tools? [Open an issue](https://github.com/solvercaptcha/solvecaptcha-javascript/issues) or fork this repo to contribute.
+
 - [JavaScript captcha solver (Node.js): Bypass reCAPTCHA, Cloudflare, hCaptcha, GeeTest and more](#javascript-captcha-solver-nodejs-bypass-recaptcha-cloudflare-hcaptcha-geetest-and-more)
   - [Installation](#installation)
   - [Configuration](#configuration)
