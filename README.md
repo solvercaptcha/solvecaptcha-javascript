@@ -15,15 +15,15 @@ Use the [JavaScript captcha solver](https://solvecaptcha.com/captcha-solver/java
 To get started quickly, check out the [Captcha Solver API](https://solvecaptcha.com/captcha-solver-api) documentation.
 
 ### Helpful links:
-- [reCAPTCHA v2 solver (Node.js + Puppeteer)]()
-- [reCAPTCHA v3 solver]()
-- [hCaptcha solver (Playwright-ready)]()
+- [reCAPTCHA v2 solver (Node.js + Puppeteer)](https://solvecaptcha.com/captcha-solver/recaptcha-v2-solver-bypass)
+- [reCAPTCHA v3 solver](https://solvecaptcha.com/captcha-solver/recaptcha-v3-solver-bypass)
+- [hCaptcha solver (Playwright-ready)](https://solvecaptcha.com/captcha-solver/hcaptcha-solver-bypass)
 - [Text & Image captcha solver (Base64 / file input)]()
-- [Cloudflare captcha / Turnstile solver]()
-- [Amazon captcha (WAF & login forms)]()
-- [GeeTest slider solver]()
-- [FunCaptcha (Arkose Labs)]()
-- [Other custom captcha types]()
+- [Cloudflare captcha / Turnstile solver](https://solvecaptcha.com/captcha-solver/cloudflare-captcha-solver-bypass)
+- [Amazon captcha (WAF & login forms)](https://solvecaptcha.com/captcha-solver/amazon-captcha-solver-bypass)
+- [GeeTest slider solver](https://solvecaptcha.com/captcha-solver/slider-captcha-solver-bypass)
+- [FunCaptcha (Arkose Labs)](https://solvecaptcha.com/captcha-solver/funcaptcha-solver-bypass)
+- [Other custom captcha types](https://solvecaptcha.com/)
 
 ## 🛠️ Features
 - Fast and fully automated bypass
