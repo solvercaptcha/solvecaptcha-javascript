@@ -12,7 +12,7 @@
 The simplest method to swiftly connect the [Solvecaptcha] captcha-solving platform to your codebase and automate the resolution of various captcha types.
 You can find code samples for different captcha types on the [JavaScript captcha solver] page.
 
-- [JavaScript captcha solver (Node.js): Bypass reCAPTCHA, Cloudflare, hCaptcha, GeeTest and more](##javascript-captcha-solver-nodejs-bypass-recaptcha-cloudflare-hcaptcha-geetest-and-more)
+- [JavaScript captcha solver (Node.js): Bypass reCAPTCHA, Cloudflare, hCaptcha, GeeTest and more](#javascript-captcha-solver-nodejs-bypass-recaptcha-cloudflare-hcaptcha-geetest-and-more)
   - [Installation](#installation)
   - [Configuration](#configuration)
     - [SolveCaptcha instance options](#solvecaptcha-instance-options)
