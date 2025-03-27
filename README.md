@@ -12,7 +12,27 @@
 Use the [JavaScript captcha solver](https://solvecaptcha.com/captcha-solver/javascript-captcha-solver-bypass) to automatically bypass any captcha - including reCAPTCHA v2, Invisible, v3, Enterprise, hCaptcha, Cloudflare Turnstile, GeeTest sliders, Amazon WAF, FunCaptcha, and both image and text-based challenges.
 
 ## ✅ Supported captcha solvers
+To get started quickly, check out the [Captcha Solver API](https://solvecaptcha.com/captcha-solver-api) documentation.
 
+### Helpful links:
+- [reCAPTCHA v2 solver (Node.js + Puppeteer)]()
+- [reCAPTCHA v3 solver]()
+- [hCaptcha solver (Playwright-ready)]()
+- [Text & Image captcha solver (Base64 / file input)]()
+- [Cloudflare captcha / Turnstile solver]()
+- [Amazon captcha (WAF & login forms)]()
+- [GeeTest slider solver]()
+- [FunCaptcha (Arkose Labs)]()
+- [Other custom captcha types]()
+
+## Features
+- Fast and fully automated bypass
+- Works in JavaScript and Node.js environments
+- Compatible with Puppeteer, Playwright, and Selenium
+- Lightweight npm module with modern async/await support
+- Pay only for successful solves
+- 99.9% uptime
+- 24/7 support for developers and integration teams<br>
 - [JavaScript captcha solver (Node.js): Bypass reCAPTCHA, Cloudflare, hCaptcha, GeeTest and more](#javascript-captcha-solver-nodejs-bypass-recaptcha-cloudflare-hcaptcha-geetest-and-more)
   - [Installation](#installation)
   - [Configuration](#configuration)
