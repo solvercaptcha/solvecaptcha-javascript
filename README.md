@@ -52,6 +52,7 @@ Need help integrating with your Node.js app or JS automation tools? [Open an iss
     - [Image Captcha](#image-captcha)
     - [reCAPTCHA v2](#recaptcha-v2)
     - [reCAPTCHA v3](#recaptcha-v3)
+    - [hCaptcha](#hcaptcha)
     - [FunCaptcha](#funcaptcha)
     - [GeeTest](#geetest-captcha)
     - [GeeTest V4](#geetest-v4-captcha)
@@ -209,6 +210,31 @@ solver.recaptcha({
 })
 .catch((err) => {
   console.log(err);
+})
+```
+
+### hCaptcha
+
+<sup>[Description of the API method.](https://solvecaptcha.com/solvecaptcha-api#solving_hcaptcha)</sup>
+
+Use this method to solve hCaptcha and retrieve a token that allows you to bypass the verification.
+
+```js
+solver.hcaptcha({
+  pageurl: 'https://portalunico.siscomex.gov.br',
+  sitekey: 'bf8ccfbf-6a05-45f6-982a-7a7964c2f50c',
+  invisible: 0,
+  domain: 'hcaptcha.com',
+  // proxy: {
+  //   type: 'HTTPS',
+  //   uri: 'login:password@IP_address:PORT'
+  // }
+})
+.then((res) => {
+  console.log(res);
+})
+.catch((err) => {
+  console.error(err);
 })
 ```
 
