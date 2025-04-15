@@ -57,11 +57,13 @@
     "example": "tsc && node ./tests/mtCaptcha.js"
   },
   "dependencies": {
+    "@types/node-fetch": "^2.6.12",
+    "form-data": "^4.0.2",
+    "node-fetch": "^2.7.0",
     "undici": "^6.0.0"
   },
   "devDependencies": {
     "@types/node": "^20.8.7",
-    "@types/node-fetch": "^2.5.7",
     "dotenv": "^16.0.3",
     "jaguarjs-jsdoc": "^1.0.2",
     "jsdoc": "^4.0.2",
