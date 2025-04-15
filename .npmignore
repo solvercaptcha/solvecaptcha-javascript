@@ -1,0 +1,13 @@
+# Directories
+src/
+node_modules/
+examples/
+tsconfig.json/
+out/
+
+# Files
+.yarn.lock
+.gitignore
+readme.md
+jsdoc.json
+.env
