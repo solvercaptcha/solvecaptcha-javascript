@@ -1,0 +1,41 @@
+name: Publish Package
+
+on:
+  # Trigger workflow when a tag starting with 'v' is pushed (e.g., v1.0.0)
+  push:
+    tags:
+      - 'v*.*.*'
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Check out the repository code
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Step 2: Set up the Node.js environment
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'                      # Specify Node.js version (change if needed)
+          registry-url: 'https://registry.npmjs.org/'  # Set the registry URL for npm
+
+      # Step 3: Install project dependencies
+      - name: Install dependencies
+        run: npm ci
+
+      # Step 4: Build the project (compile TypeScript or run your build script)
+      - name: Build project
+        run: npm run build
+
+      # Step 5: Run tests to ensure the package works correctly before publishing
+      # name: Run tests
+      #  run: npm test
+
+      # Step 6: Publish the package to npm using the provided token
+      - name: Publish package to npm
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}  # Use the secret stored in GitHub repo secrets
