@@ -1,6 +1,6 @@
 {
   "name": "solvecaptcha-javascript",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node.js wrapper for SolveCaptcha.com API. Bypass recaptcha, hcaptcha, cloudflare capthca and more.",
   "main": "dist/index.js",
   "repository": {
