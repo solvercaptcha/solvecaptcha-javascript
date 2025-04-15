@@ -5,14 +5,14 @@
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/solvecaptcha/solvecaptcha-javascript.git"
+    "url": "git+https://github.com/solvercaptcha/solvecaptcha-javascript.git"
   },
   "license": "MIT",
   "author": "Solvecaptcha",
   "bugs": {
-    "url": "https://github.com/solvecaptcha/solvecaptcha-javascript/issues"
+    "url": "hhttps://github.com/solvercaptcha/solvecaptcha-javascript/issues"
   },
-  "homepage": "https://github.com/solvecaptcha/solvecaptcha-javascript",
+  "homepage": "https://github.com/solvercaptcha/solvecaptcha-javascript",
   "types": "dist/index.d.ts",
   "keywords": [
     "solvecaptcha",
